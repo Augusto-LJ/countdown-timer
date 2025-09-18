@@ -4,7 +4,9 @@
 
 <template>
   <div class="container">
-
+    <div class="title">
+      New Year Countdown
+    </div>
   </div>
 </template>
 
@@ -16,5 +18,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: bold;
+
 }
 </style>
