@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+  import Timer from "./components/Timer.vue"
 </script>
 
 <template>
@@ -7,6 +7,13 @@
     <div class="title">
       New Year Countdown
     </div>
+    <div class="full-timer">
+      <Timer label="Days"/>
+      <Timer label="Hours"/>
+      <Timer label="Minutes"/>
+      <Timer label="Seconds"/>
+    </div>
+    
   </div>
 </template>
 
@@ -24,6 +31,11 @@
 .title {
   font-size: 5rem;
   font-weight: bold;
+}
 
+.full-timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 </style>
