@@ -1,6 +1,6 @@
 # Countdown Timer 🎯
 
-A simple countdown timer built with **Vue.js 3**. Perfect for new year's celebration!
+A simple countdown timer built with **Vue.js 3** and **TypeScript**. Perfect for new year's celebration!
 
 ## 🚀 Technologies
 
