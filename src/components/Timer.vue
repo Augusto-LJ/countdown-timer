@@ -1,10 +1,10 @@
 <script setup lang="ts">
-    defineProps<{ label: string}>();
+    defineProps<{ count: string, label: string}>();
 </script>
 
 <template>
     <div class="wrapper">
-        <div class="count">12</div>
+        <div class="count">{{ count }}</div>
         <div class="label">{{ label }}</div>
     </div>
 </template>
