@@ -1,5 +1,38 @@
-# Vue 3 + TypeScript + Vite
+# Countdown Timer 🎯
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple countdown timer built with **Vue.js 3**. Perfect for new year's celebration!
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 🚀 Technologies
+
+- **Frontend**: Vue.js 3 + Vite
+- **State Management**: Vue Composition API
+- **Standards**: SPA architecture, reusable components
+
+## 🔧 Features
+
+- Timer is updated every second
+
+## 💻 Demo
+
+<img width="1875" height="866" alt="image" src="https://github.com/user-attachments/assets/70843856-78f5-47ea-92f6-ff8b001c81c8" />
+
+## 🛠 Installation & Setup
+
+If you want to run the project locally, follow the steps:
+```bash
+# Clone the repository  
+https://github.com/Augusto-LJ/countdown-timer.git
+
+# Enter the project directory
+cd countdown-timer
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
+# Open your browser at http://localhost:5173 (or the port Vite tells you) to see the app in action. 🌐
+```
+
+If you just want to access the countdown online, [click here](https://augusto-lj.github.io/countdown-timer)
